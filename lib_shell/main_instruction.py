@@ -1,4 +1,3 @@
-import 
 
 class main_inst:
 	def __init__(self, lang="en"):
