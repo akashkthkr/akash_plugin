@@ -12,7 +12,7 @@ sys.path.insert(0, os.path.dirname(AKASHFILE) + "/lib_shell/")
 
 from main_instruction import *
 from utils import *
-from main_instruction import INSTANCE
+from main_instruction import main_inst
 
 class AkashCmd(object):
 
@@ -79,7 +79,7 @@ class AkashCmd(object):
 
     def start(self, *arg):
         print("akashCmd::start")
-        inst = INSTANCE()
+        inst = main_inst()
         inst.check(helptext)
         self._execute("start")
         return
