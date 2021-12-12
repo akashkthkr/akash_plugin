@@ -6,7 +6,7 @@ Reverse Engineering tool for gdb using python exploit development assistance PED
 
 
 # Installation
-clone the repo githubLink  			~/
+clone the repo git clone git@github.com:akashkthkr/akash_plugin.git  ~/
 echo "source ~/akash_plugin/akash.py" >> ~/.gdbinit
 Now it would be added to Home folder and gdbinit with source py code
 
